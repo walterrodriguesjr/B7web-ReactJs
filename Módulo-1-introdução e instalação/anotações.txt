@@ -25,3 +25,18 @@ Módulo-1-introdução e instalação
     se houver um array de dados, e no mesmo conceito existirem componentes que queiram consumir 
     estes dados, será perfeitamente possível. 
 
+5-O que é Next, Remix e Gatsby?
+-São frameworks. 
+-Next, contém várias funcionalidades pré prontas de necessidades básicas, possibilitando a criação, 
+    por exemplo, de diversas telas, e fazendo a troca de telas, dinâmicamente. 
+-Remix, menos usado, em processo de manturação, pouco falado na aula, em cresimento ainda.
+-Gatsby, voltado para uso em sites estáticos, sem consumo de dados externos.
+
+6-Usando React via CDN
+-instalando via CDN, porém não é a recomendada para uso profissional. 
+-testes básicos direto no navegador 
+
+7-Instalando o Node
+-node já instalado última versão lts
+-o node é instalado utilizando um arquivo executável padrão
+

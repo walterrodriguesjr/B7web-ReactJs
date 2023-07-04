@@ -1,0 +1,15 @@
+Módulo-1-introdução e instalação 
+
+
+1-O que é React? 
+-é uma biblioteca (ferramenta) de javascript, com um dos objetivos, como próprio nome diz, deixar o projeto 'reativo'. 
+
+2-O que é DOM Virtual?
+-o DOM virtual, é a parte da tela onde de fato foi alterado o código, de maneira instantânea, indo direto onde soemnte foi alterado, facilitando a produção de sistemas SPA 
+
+3-Como usar o React
+-a essência do react basicamente é "COMPONENTE" 
+-é normal usar componentes dentro de outros componentes, para se construir algo, ex: usar componentes de input, label, buttons, dentro de um componente de card, por exemplo 
+
+4-Como pensar em reactês?
+-

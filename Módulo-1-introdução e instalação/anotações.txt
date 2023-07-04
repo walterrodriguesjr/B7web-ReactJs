@@ -11,3 +11,17 @@ Módulo-1-introdução e instalação
 -a essência do react basicamente é "COMPONENTE" 
 -é normal usar componentes dentro de outros componentes, para se construir algo, ex: usar componentes de input, label, buttons, dentro de um componente de card, por exemplo .
 
+4-Como pensar em reactês?
+-Remetendo novamente a COMPONENTES, lembrando que, o que for criado em componentes, o conteúdo 
+    deste componente, onde que que seja chamado, terá a mesma estrutura, cabendo claro, customizações 
+    específicas também, mas, por padrão, terão o mesmo formato. 
+-O conceito de DRY (dont repeat yourself) = não se repita. A idéia e não ter que ficar criando 
+    códigos repetidos para cada ação, em lugares diferentes, porém que façam a mesma coisa. Po exemplo, 
+    criar várias tables, modal e etc.. para POST, PUT, SHOW, porém elas tem a mesma estrutura. 
+-Este conceito de DRY, tem como idéia, também, facilitar a manutenção futura do código também, tendo 
+    em vista que, caso precise alterar uma tabela, por exemplo, basta que se altere no componente, 
+    assim, consequentemente, alterando em todo contexto que utilizar aquela tabela. 
+-Existe também o conceito que, os filhos terão acesso aos dados dos pais, pensando em componente, 
+    se houver um array de dados, e no mesmo conceito existirem componentes que queiram consumir 
+    estes dados, será perfeitamente possível. 
+

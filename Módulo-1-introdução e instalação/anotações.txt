@@ -9,5 +9,5 @@ Módulo-1-introdução e instalação
 
 3-Como usar o React
 -a essência do react basicamente é "COMPONENTE" 
--é normal usar componentes dentro de outros componentes, para se construir algo, ex: usar componentes de input, label, buttons, dentro de um componente de card, por exemplo 
+-é normal usar componentes dentro de outros componentes, para se construir algo, ex: usar componentes de input, label, buttons, dentro de um componente de card, por exemplo .
 

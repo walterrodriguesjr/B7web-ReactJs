@@ -40,3 +40,42 @@ Módulo-1-introdução e instalação
 -node já instalado última versão lts
 -o node é instalado utilizando um arquivo executável padrão
 
+8-Iniciando um projeto com Next
+-primeiro, necessário atualizar o next, no exemplo abaixo, é feito de maneira global com -g 
+    npm install -g create-next-app
+-instalando direto na pasta que estiver o cmd 
+    npx create-next-app 
+    em seguida, pergunta o nome do projeto 
+    em seguida, pergunta se quer usar typescript (recomendado)
+    em seguida, se quer usar o ESLint (serve para deixar o código bonito)
+    em seguida, se quer usar o TailWind (para estilização de interface)
+    em seguida, se quer criar o src, e dentro ficará o projeto (recomendado para organização)
+    em seguida, se quer usar o App Router, (recurso do next para ir de uma página a outra, recomendado)
+    em seguida, quer usar o import alias (mais avançado) 
+INSTALADO 
+-para rodar o projeto, estando na pasta no terminal, para rodar a versão de desenvolvimento do projeto
+    npm run dev 
+-no cmd será informado o localhost: algum numero para visualizar 
+-para fechar o projeto que está rodando no cmd, ctrl + c 
+*/VÁRIOS TEMPLATES INTERESSANTES DO NEXT PARA SITES E SISTEMAS
+
+9-Iniciando um projeto com Vite
+-Vite serve para criar o projeto com react puro, sem uso de framework (next)
+-criado projeto com vite também na linha de cmd 
+    npm create vite
+    pergunta se quer instalar o pacote vite (sim)
+    pergunta o nome do projeto 
+    pergunta com qual ferramente (react com typescript) 
+INSTALADO 
+-para rodar o projeto, estando na pasta no terminal, para rodar a versão de desenvolvimento do projeto
+    npm install (instalar as dependências)
+    npm run dev (rodar o projeto)
+
+
+Módulo-2-primeiros passos com react 
+
+
+1-
+    
+
+

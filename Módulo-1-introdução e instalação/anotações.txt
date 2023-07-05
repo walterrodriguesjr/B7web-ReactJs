@@ -75,7 +75,73 @@ INSTALADO
 Módulo-2-primeiros passos com react 
 
 
-1-
+1-Primeiro Componente
+-baseado no primeiro projeto next 
+-componentes 
+    trecho de código que pode ser usado e reutilizado em diversos trechos do código 
+-não basta criar o componente, ele precisa ser exportado, para que seja utilizado de fato 
+-Se dentro do return da function do componente, houver mais de um item (2 h1 ou mais), precisa 
+    estar envolvido com uma <div>
+-Após abrir o return da function, a <div> que abre primeiro, devem ser as unicas por fora, 
+    caso vá inserir mais <div>, deve ser feito dentro do conjunto de <div> já existente. 
+-Recomendado, em vez de usar function normal, usar as arrow function 
+
+2-Exportando e Importando um Componente
+-Exportação 
+    existem 2 tipos de exportação 
+        export default = exportação padrão, ou seja, o componente vai ser importado depois, 
+            com o nome que no começo foi definido, e depois poderá ser renomeado (não recomendado export default 
+            para componentes auxiliares, apenas a page principal)
+        export = é a exportação direta já na declaração, indicado ser usado em todos com componentes auxiliares, 
+            não sendo necessário fazer o export no rodapé, apenas antes da declaração da function.
+    Importante: o export default deve ser usado apenas na exportação da página principal, já os 
+        componentes auxiliares, devem usar o export normal.
+    Importante, os componentes auxiliares, que fazem a exportação comum sem default, devem ser feito 
+        o export já no momento da criação da function (export const Teste = () => {})
+        não sendo necessário declarar somente a exportação no rodapé do componente.
+    No caso de export comum de componente auxiliar, é possível declarar vários componentes no mesmo arquivo, 
+        sendo que, ao importar, após o 'import' no { } ali se informa quais componentes dentro do arquivo 
+        informado no endereço a frente, será importado de fato.
+    Dentro de um arquivo com vários componentes, podem haver componentes do tipo export, e export default, 
+        devendo sempre se atentar em fazer o export default no rodapé do componente default, e também, 
+        fazer a importação da maneira correta de cada um.
+-Importação 
+    o componente e importado no local onde ele será usado, geralmente no topo do código se faz a 
+        importação, com a palavra-chave 'import' e em seguida o nome do componente. 
+    o comando 'import' que em seguida vai o nome do componente, pode ser renomeado, então, a 
+        maneira que ele for descrito neste local, é como ele será chamado depois dentro da <tag />
+        importando mesmo, é que após o nome informado e from, esteja o endereço correto do componente. 
+
+3-Usando vários componentes
+-A vantagem de usar vários componetes é: organizar o código e deixando-o mais organizado 
+-Um ponto importante de agrupar componentes, é, deve-se criar cada componente (conteúdo) em seu 
+    próprio arquivo, caso haja necessidade de agrupa-los para mandar para página principal, o ideal 
+    é criar um novo componente, o qual faz o agrupamento destes demais componentes, e este então 
+    é chamado na página principal, com intuíto de evitar poluir a página principal de renderização 
+-Cada tipo de agrupamentos de componentes pode ter um arquivo com suas importações que quiser 
+
+4-Regras gerais do JSX
+-Nada pode ser colocado forá da <div> do return() da function, porem pode ser outra <tag> em vez da <div>
+-Porém, para sanar este problema, pode se usar um recurso chamado 'FRAGMENT' que nada mais é do que, 
+    em vez de por uma <div> dentro do return, usa-se apenas <> </>, desta forma, é possível agrupar 
+    vários elementos (<tag>) dentro do return() da function. 
+-As <tags> dentro do FRAGMENT sempre devem ser fechadas para não dar erro 
+
+5-JSX e variáveis, funções e objetos
+-É possível insrir dentro do componente: variáveis, funções, objetos, condicionais etc... 
+-variáveis 
+    as variáveis devem ficar após a abertura da function do componente e antes do return() da função, 
+    podendo serem reutilizadas dentro das tags do componente, estando dentro {} 
+-funções 
+    as funções, geralmente declaradas dentro de const e usando arrow function, podem ser criadas 
+    dentro da area onde cria as variáveis (após a criação da função do componente e antes do return)
+    ou antes da criação da function do componente, de qualquer maneira deve ser chamada entre {} dentro 
+    do local desejado 
+-CSS inline 
+    é colocado como um objeto na tag, style={{color: 'red'}}
+
+6-
     
+
 
 

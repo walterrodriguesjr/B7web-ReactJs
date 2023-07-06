@@ -1,20 +1,34 @@
-import { Card } from "./components/Card";
-import { GeoForm } from "./components/GeoForm";
-import { Person } from "./components/Person";
-
-
+import { peopleList } from "@/data/peopleList";
 
 const Page = () => {
+
+  const chemists = peopleList.filter(person => person.profession === 'chemist');
+
+
   return (
     <>
-      <h1>Aulas de React</h1>
-      <h5>Módulo 2</h5>
 
-      <Card><h1>Título da children</h1>
-            <p>Texto dentro da Children</p>
-      </Card>
+      <h1 className="font-bold">Aulas de React</h1>
+      <h5 className="underline">Módulo 2</h5>
+
+      {/* {peopleList.length > 0 &&
+      <ul>
+        {peopleList.map(person =>
+          <li key={person.id}> - Nome: {person.name} - Profissão: {person.profession}</li>)}
+      </ul>
+} */}
+
+      {chemists.length > 0 &&
+        <>
+          <h3>Lista de Químicos:</h3>
+          <ul>
+            {chemists.map(person => <li key={person.id}>{person.name}</li>)}
+          </ul>
+        </>
+      }
+
     </>
-   
+
   );
 }
 

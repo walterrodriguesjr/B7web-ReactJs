@@ -161,7 +161,35 @@ Módulo-2-primeiros passos com react
 -para passar dentro da chamada dupla do componente children, e dentro inserir vários conteúdos com tag HTML, além de estar o contexto envolvido por tag <> FRAGMENT e não <div>, 
     no arquivo tsx do componente, na area de tipagem do objeto que recebe a prop, a propriedade deve receber tipagem ReactNode, para receber uma diversidade de tipos de dados. 
 
+9-Renderização Condicional
+-Significa que algo será renderizado (exibido) com determinada condição 
+-Posso colocar uma condicional após o início da função do componente e antes do return, para que, 
+    determinada exibição seja condicionada (propriedade opcional, quando não preenchida, retorna o que for definido
+    em seguida)
+-É possível otimizar o código usando condicional ternária direto na chamada da propriedade de JS 
+    na tag. (muito melhor, evita a repetição de códigos)
+    ex: <p className="text-right text-sm">{author ?? "Author Desconhecido" }</p> 
 
+10-Operador lógico &&
+-é dois &&, significa "então" trabalha junto com condicional, agrupar condicional 
+-Significa que, se determinada propriedade existir, 'faça' (&&), o teste foi feito colocando a tag 
+    HTML dentro das chaves de javascript 
 
+11-Renderizando Listas
+-é possível criar arquivos já exportados de um array, ou array de objetos etc, possível também 
+    criar arquivos específicos de tipagem, já exportados também, sendo possível serem importados no 
+    arquivo em que a tipagem será usada 
+-As estruturas de repetição (map, foreach etc...) podem ser inseridas dentro de uma constante, fora do return
+    (return é a area de renderização), e essa tal constante, pode ser chamada já com os dados apenas 
+    para exibição, porém, a expressão condicional pode também ser inserida dentro de uma tag do return, 
+    sempre dentro de chaves javascript
+-foi usado o método .map para isso (estrutura de repetição)
+
+12-Filtrando Listas
+-filtrando a exibição de dados 
+-usando o método .filter a partir do indice resgatado do array de objetos
+-a const que recebe o filter armazena um array com dados filtrados, em seguida é feito um .map para 
+    fazer o processo de repetição com os dados filtrados armazenados dentro do array qye recebeu o filter 
+-
 
 

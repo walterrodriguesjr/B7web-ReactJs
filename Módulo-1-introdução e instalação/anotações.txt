@@ -140,8 +140,28 @@ Módulo-2-primeiros passos com react
 -CSS inline 
     é colocado como um objeto na tag, style={{color: 'red'}}
 
-6-
-    
+6-Passando props para um componente
+-Props 
+    São propriedades, dados que podem ser passados nos parâmetros das function dos componentes e também chamados no uso do componente 
+    no parâmetro da function, vai o objeto que irá conter os dados (geralmente nomeado como 'props', e ao lado vai o objeto de tipagem, geralmente 'Props', o objeto de tipagem) 
+        então define o type de cada dado do objeto props. 
+    ao chamar o dado que chega por props, deve se chamar como um objeto normal entre {} 
+    No arquivo tsx onde se chama o componente com os props, na <tag> onde chama o componente, deve se chamar, o dado em questão, e o valor que lhe será atribuido. 
+-Na definição da tipagem do Props, o dado que for seguido de "?" quer dizer que ele é opcional, os que não tiverem a interrogação, são obrigatórios a definição do dado do props, 
+    na chamada do componente. 
+
+7-Definindo um padrão em props
+-a props, pode ter um valor padrão, ou seja, caso não seja definido nenhum valor para determinado dado da prop na chamada do componente, automaticamente terá um valor 
+    definido por default no momento em que as propriedades da props são definidas no parâmetro da função do componente. 
+
+8-Children do componente
+-permite o componente receber outros conteúdos dentro dele, e não somente via props 
+-no local onde o componente que contém a children irá ser chamado, a chamado será com tag de abertura e fechamento.
+-no parametro da function do componente, declara a propriedade e sua tipagem, e em seguida o nome da Tipagem de Props.
+-para passar dentro da chamada dupla do componente children, e dentro inserir vários conteúdos com tag HTML, além de estar o contexto envolvido por tag <> FRAGMENT e não <div>, 
+    no arquivo tsx do componente, na area de tipagem do objeto que recebe a prop, a propriedade deve receber tipagem ReactNode, para receber uma diversidade de tipos de dados. 
+
+
 
 
 

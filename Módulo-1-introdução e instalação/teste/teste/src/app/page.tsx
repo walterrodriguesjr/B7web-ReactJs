@@ -1,21 +1,14 @@
-import { LinhaDois, LinhaUm } from "@/components/Linhas";
-import { TextoUm, TextoDois } from "../components/Textos";
+import { DadosPessoais } from "./components/DadosPessoas";
+import { DadosProfissionais } from "./components/DadosProfissionais";
+
+
 
 const Page = () => {
   return (
-    <div>
-      <h1>Tela de Page</h1>
-      <br />
-      <h1>Componente Textos</h1>
-      <TextoUm />
-      <TextoDois />
-
-      <div>
-        <h1>Componentes Linhas</h1>
-      </div>
-      <LinhaUm />
-      <LinhaDois />
-    </div>
+    <>
+      <DadosPessoais />
+      <DadosProfissionais />
+    </>
   );
 }
 

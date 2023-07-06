@@ -2,23 +2,28 @@ const getWeekday = () => {
     return new Intl.DateTimeFormat('pt-BR', {weekday: 'long'}).format(new Date());
 }
 
+type Props = {
+    nome: string;
+    cargo: string;
+    funcao: string;
+    foto: string;
+    extra?: string;
+    idade?: number;
+}
 
-export const Person = () => {
 
-    const data = {
-        nome: 'Walter',
-        cargo: 'Policial',
-        funcao: 'Programador',
-        foto: 'https://cdn-icons-png.flaticon.com/512/17/17004.png',
-    }
+export const Person = ({nome, cargo, funcao, foto, extra, idade = 37}: Props) => {
+
+  
 
     return (
         <>
-            <h1 style={{color: 'red'}}>Nome: {data.nome} - {getWeekday()}</h1>
-            <img className="h-40" src={data.foto} alt="" />
+            <h1 style={{color: 'red'}}>Nome: {nome}</h1>
+            <img className="h-40" src={foto} alt="" />
             <ul>
-                <li>Cargo: {data.cargo}</li>
-                <li>Função: {data.funcao}</li>
+                <li>Cargo: {cargo}</li>
+                <li>Função: {funcao}</li>
+                <li>Idade: {idade}</li>
             </ul>
         </>
     );

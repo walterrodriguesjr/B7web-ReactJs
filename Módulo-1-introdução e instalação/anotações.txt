@@ -192,6 +192,12 @@ Módulo-2-primeiros passos com react
     fazer o processo de repetição com os dados filtrados armazenados dentro do array qye recebeu o filter 
 
 13-Exercício: Greeting condicional 1
--
+-feito, usando o sistema de módulos
+
+14-Exercício: Greeting condicional 2
+-feito, usando condicionais direto inline no jsx 
+-na condicional inline, o && pode ser 'e' ou então pode ser 'então/faça'
+
+15-
 
 

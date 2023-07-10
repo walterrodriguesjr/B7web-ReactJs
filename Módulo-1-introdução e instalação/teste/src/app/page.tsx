@@ -1,27 +1,24 @@
-import { DadosProfissionais } from "./components/DadosProfissionais";
-import { DadosPessoais } from "./components/dadosPessoais";
+import { dadosPessoais } from "@/data/dadosPessoais";
+import { Frase } from "./components/Frase";
+import { dadosProfissionais } from "@/data/dadosProfissionais";
+
+
 
 const Page = () => {
   return (
     <>
-      <h1>Page</h1>
-      <br />
-      <DadosPessoais
-        nome="Walter"
-        sexo="Masculino"
-        idade={37}
-        cidade="Curitiba"
-      />
+      <Frase />
+      <ul>
+        <h1 className="font-bold">Dados Pessoais</h1>
+        {dadosPessoais.map(dadoPessoal => <li>id: {dadoPessoal.id} - nome: {dadoPessoal.nome} - idade: {dadoPessoal.idade} - cidade: {dadoPessoal.cidade}</li>)}
+      </ul>
 
       <hr />
 
-      <DadosProfissionais
-        empresa="Policia Militar do Estado do Paraná"
-        profissao="Policial Militar"
-        funcao="Desenvolvedor"
-        cargo="Soldado"
-      />
-
+      <h1 className="font-bold">Dados Profissionais</h1>
+        <ul>
+          {dadosProfissionais.map(dadoProfissional => <li>Profissão: {dadoProfissional.profissao} - Cargo: {dadoProfissional.cargo}</li>)}
+        </ul>
     </>
   );
 }

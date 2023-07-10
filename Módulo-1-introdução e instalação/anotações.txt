@@ -190,6 +190,8 @@ Módulo-2-primeiros passos com react
 -usando o método .filter a partir do indice resgatado do array de objetos
 -a const que recebe o filter armazena um array com dados filtrados, em seguida é feito um .map para 
     fazer o processo de repetição com os dados filtrados armazenados dentro do array qye recebeu o filter 
+
+13-Exercício: Greeting condicional 1
 -
 
 

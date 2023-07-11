@@ -198,6 +198,13 @@ Módulo-2-primeiros passos com react
 -feito, usando condicionais direto inline no jsx 
 -na condicional inline, o && pode ser 'e' ou então pode ser 'então/faça'
 
-15-
+15-Exercício: Rating via emoji (fácil)
+-ok 
+
+16-Exercício: Rating via emoji (difícil)
+-ok 
+
+17-Exercício: Tabela de notas estudantis 1
+-parei em 06:31
 
 

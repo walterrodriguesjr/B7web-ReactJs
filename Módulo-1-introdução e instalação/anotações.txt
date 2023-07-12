@@ -205,6 +205,9 @@ Módulo-2-primeiros passos com react
 -ok 
 
 17-Exercício: Tabela de notas estudantis 1
--parei em 06:31
+-configurado a tela da tabela 
+
+18-Exercício: Tabela de notas estudantis 2
+-
 
 

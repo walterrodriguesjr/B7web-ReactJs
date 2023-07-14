@@ -250,5 +250,7 @@ Módulo-3-estado e evento
         nome do state, função que altera o state recebem a função useState(valorInicialDeItem)
 
 7-Usando states para auxiliar UI
--
+-feito atividades criado um button toogle que mostra/esconde uma div com texto, usado a funcionalidade do useState para isso 
+
+8-
 

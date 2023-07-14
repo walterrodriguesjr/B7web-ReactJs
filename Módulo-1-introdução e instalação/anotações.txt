@@ -208,6 +208,47 @@ Módulo-2-primeiros passos com react
 -configurado a tela da tabela 
 
 18-Exercício: Tabela de notas estudantis 2
--
+-feito o loop com map dos dados dentro da tabela 
 
+
+Módulo-3-estado e evento 
+
+
+1-Adicionando evento de clique
+-feito a function de click antes do return() da function Page, em seguida, dentro do button, 
+    chamada a função onClick={nomeDaFunction}
+-pode ser contruída a function inline dentro do próprio button 
+
+2-Forma errada de passar eventos
+-tomar cuidado para não chamar a function inline errada para ela não ficar para executar 
+    já no carregamento da página, funçãoTal() = errada, é sem parentes que chama 
+-deve ser passado a definição da função, o nome, apenas 
+
+3-Passando eventos via props
+-cria se um prop normalmente e dentro dela chama o nome da função 
+
+4-Usando o preventDefault
+-usando o preventDefault tradicional, event.preventDefault(); 
+-usar o event ou e no parametro da função e chamar o FormEvent, para typescript, irá 
+    importar da biblioteca do react 
+-pode ser feito no onSubmit inline no próprio button 
+
+5-O que é um State?
+-serve para tornar a tela interativa, fazer modificações 
+-envolve o ciclo de renderização da pagina, do componente
+-state(estado) serve para renderizar determinada atualização na tela, mas sem recarregar 
+-irá renderizar a parte onde está sendo usado o state 
+
+6-Trabalhando com States
+-hooks = ganchos, funções do react (é possível criar as próprias hooks) sempre começam com 
+    'use'
+-state é usado pelo hooks dele 'useState' 
+-o state é criado, a partir de uma const de array com 2 itens, o primeiro com o item em 
+    questão, e o segundo funciona como uma função para definir um novo valor para o primeiro 
+    item.
+-ex: const [item, setItem] = useState();
+        nome do state, função que altera o state recebem a função useState(valorInicialDeItem)
+
+7-Usando states para auxiliar UI
+-
 

@@ -252,5 +252,17 @@ Módulo-3-estado e evento
 7-Usando states para auxiliar UI
 -feito atividades criado um button toogle que mostra/esconde uma div com texto, usado a funcionalidade do useState para isso 
 
-8-
+8-Usando states em campos
+-a state serve para armazenar, por exemplo, um valor digitado no input, para posteriormente, 
+    utilizar em outro lugar, sem a necessidade de pegar o valor pelo DOM 
+-usado método onChange de maneira inline, ele serve para renderizar em tempo real, conforme 
+    digita
+
+9-States mudando no tempo
+-ok 
+
+10-State Updater
+-pegar valor atualziado da memoria e incrementando, pouco usado em projetos reais 
+
+11-
 

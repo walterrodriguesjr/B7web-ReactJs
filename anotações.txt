@@ -264,5 +264,12 @@ Módulo-3-estado e evento
 10-State Updater
 -pegar valor atualziado da memoria e incrementando, pouco usado em projetos reais 
 
-11-
+11-Atualizando Objetos em States
+-é possível criar, no mesmo useState, um objeto de vários sub dados, exemplo "fullname", colocando nome, sobrenome, idade etc... sem a necessidade 
+    de criar um useState parada cada propriedade. 
+-clonando objeto para poder alterar somente a propriedade desejada do objeto, não sendo necessário alterar todas 
+    ...nomeDoObjeto 
+
+12-Arrays em States: Exibir
+-01:10
 

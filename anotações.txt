@@ -271,5 +271,17 @@ Módulo-3-estado e evento
     ...nomeDoObjeto 
 
 12-Arrays em States: Exibir
--01:10
+-usando um array dentro do state 
+-funções de manipulação de array (push, pop) não funcionam com ele 
+-filter, slice pode ser usada, criam um novo array 
+-precisa-se criar um novo array e não tentar manipular o array criado
+
+13-Arrays em States: Adicionar
+-o value do input é o dado que está no input 
+-onChange serve para usar o metodo set do useState, para monitorar o que está no input 
+-no método onCLick, aciona uma função que, atráves do metodo set do useState, clona o array do useState atual, 
+    e em seguida, adiciona um novo item no array, pegando o que estiver no input monitorado 
+    e adicionando no array qye está sendo usado no loop do map 
+
+14-
 

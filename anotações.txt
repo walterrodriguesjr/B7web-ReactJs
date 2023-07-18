@@ -283,5 +283,19 @@ Módulo-3-estado e evento
     e em seguida, adiciona um novo item no array, pegando o que estiver no input monitorado 
     e adicionando no array qye está sendo usado no loop do map 
 
-14-
+14-Arrays em States: Excluir
+-criado uma função direto no button que existe no item, está função tem um parâmetro, que pode ser o id ou item, 
+    pois na hora da construção da função, ela precisa saber, através do id ou key, qual item deve ser deletado 
+-em seguida, usado método filter, que cria um novo array, e retorna somente os itens que tem o id ou key diferente 
+    do parametro que foi informado 
+
+15-Arrays em States: Alterar
+-criado uma function para manipular o input check, este contem uma clonagem também do arrya principal, 
+    que vai para uma variável, e este em seguida, usando o índice da variavel que contém o novo array, 
+    realiza a ação de toogle do input check 
+
+16-Arrays em States: Usando ID
+-implementando o id do item e usado para identificação do item em questão, em vez de usar o index 
+
+17-
 

@@ -1,4 +1,5 @@
+
 export type Pessoa = {
-    id: number
-    nome: string
+    id: number;
+    nome: string;
 }

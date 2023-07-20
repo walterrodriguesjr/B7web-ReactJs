@@ -297,5 +297,8 @@ Módulo-3-estado e evento
 16-Arrays em States: Usando ID
 -implementando o id do item e usado para identificação do item em questão, em vez de usar o index 
 
-17-
+17-Exercício: Galeria de Fotos 1
+-ok 
+
+18-
 

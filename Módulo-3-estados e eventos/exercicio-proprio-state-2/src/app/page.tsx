@@ -1,15 +1,17 @@
 "use client"
 
-import Image from 'next/image'
-import { Formulario } from './components/Formulario';
+import { Form } from "./components/Form";
+
 
 
 const Page = () => {
-  return (
-    <>
-    <Formulario />
 
-    </>
+  return (
+
+   <>
+    <Form />
+   </>
+
   )
 }
 

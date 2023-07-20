@@ -300,5 +300,10 @@ Módulo-3-estado e evento
 17-Exercício: Galeria de Fotos 1
 -ok 
 
-18-
+18-Exercício: Galeria de Fotos 2
+-ok 
 
+19-Exercício: Galeria de Fotos 3
+ok 
+
+20

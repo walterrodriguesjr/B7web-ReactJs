@@ -306,4 +306,10 @@ Módulo-3-estado e evento
 19-Exercício: Galeria de Fotos 3
 ok 
 
-20
+20-Exercício: Quiz 1
+-configurado a view, as type e data, com dados da pergunta, sendo um objeto com 3 values 
+
+21-Exercício: Quiz 2
+-configurada a logica de click de resposta 
+
+22-

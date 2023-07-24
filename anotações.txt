@@ -312,4 +312,39 @@ ok
 21-Exercício: Quiz 2
 -configurada a logica de click de resposta 
 
-22-
+22-Exercício: Quiz Completo 1
+-ok 
+
+23-Exercício: Quiz Completo 2
+-ok 
+
+
+Módulo-4-effect, reducers e context 
+
+
+1-O que são Effects?
+-é um aliado do state 
+-pode ser usada de forma otimizada e não otimizada 
+-effect - pode ser usado dentro da page principal ou nos componentes, serve para exutar algo como consequencia de alguma outra coisa ocorrendo. (ex: na hora que 
+    carregar a página, consumir dados de uma determinada url)
+
+2-Definindo um Effect
+-o useEffect tem 3 etapas: 
+    -definição da função que vai rodar 
+    -definição de quando va irodar 
+    -definição do que fazer quando o componente sumir/unload 
+-no useEffect, na primeira estapa, ele define o que será feito quando houver uma renderização nesta tela (não precisa ser um refresh) 
+-porem, se eu fazer o useEffect com array vazio antes de fechar, ele entende que a ação só deve ser executada 1 vez, com refresh da tela, e não com renderização 
+    na tela 
+    ex: useEffect(() => {
+    console.log("Rodou");
+  }, []);
+-RESUMINDO ESTA PARTE: sem o array vazio no final, o que estiver dentro, será executado a cada renderização de tela, já com o array vazio, o que estiver dentro, será 
+    executado a cada refresh ou inicialização de tela 
+-o array serve para monitorar determinados states, quando estes states modificarem, executa a ação contida no useEffect 
+-se não especificar dentro do array do useEffect qual state será monitorado, e deixar o array vazio, ele vai entender que não deve monitorar ninguem e acionará a ação 
+    interna com a inicialização da tela ou refresh 
+
+3-
+
+

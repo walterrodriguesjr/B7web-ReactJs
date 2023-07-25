@@ -345,6 +345,22 @@ Módulo-4-effect, reducers e context
 -se não especificar dentro do array do useEffect qual state será monitorado, e deixar o array vazio, ele vai entender que não deve monitorar ninguem e acionará a ação 
     interna com a inicialização da tela ou refresh 
 
-3-
+3-Usando o Effect da forma correta
+-forma otimizada 
+-em casos em que precisa por exemplo, concatenar mais de um state, cria se uma const para que ela sim, 
+    receba as demais states, não sendo necessário, o uso do useState 
+-já em casos corretos para uso do useState, quando precisa executar alguma integração de serviço externo 
+    do react (consultar alguma API, dar um play externo de video etc)
+
+4-Exemplo real do Effect
+-uso real do useEffect, fazendo uso de recurso externo 
+-usado para alterar o stato do video player 
+
+5-Usando o CleanUp
+-serve para fazer uma limpeza no useEffect, após ele executar e encerrar determinada ação 
+-no exemplo, foi criado um useEffect dentro do componente, quando o componente estava em execução, 
+    ele retornava a ação principal, e em seguida, criado um return do useEffect, para informar que 
+    acabou a execução do componente, que tem este useEffect 
+-
 
 
